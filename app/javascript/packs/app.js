@@ -121,10 +121,10 @@ document.addEventListener("DOMContentLoaded", () => {
             app.message = `タスク ${id} を削除しました。`;
           });
         }
-      },
-      beforeMount() {
-        this.listTasks();
       }
+    },
+    beforeMount() {
+      this.listTasks();
     }
   });
 });
