@@ -1,0 +1,19 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: root
+  password: root
+  host: 127.0.0.1
+
+development:
+  <<: *default
+  database: docker-study-for-rails_development
+
+test:
+  <<: *default
+  database: docker-study-for-rails_test
+
+production:
+  <<: *default
+  database: docker-study-for-rails_production
