@@ -17,7 +17,7 @@ $ bundle exec rails db:create
 
 ## Database initialization
 ```bash
-$ bundle exec rails db:migrate:reset
+$ bundle exec rails db:migrate
 ```
 
 ## How to run the test suite
