@@ -1,7 +1,7 @@
 version: '3.2'
 
 services:
-  database:
+    database:
     restart: always
     image: mysql:5.7
     ports:

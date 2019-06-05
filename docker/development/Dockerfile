@@ -6,7 +6,7 @@ LABEL maintainer="Yuta_Ushijima<register@yuta-u.com>"
 ENV LANG=C.UTF-8 \
     LC_ALL=C.UTF-8 \
     LC_CTYPE="utf-8"
-# 環境変数
+# 環境変数1
 ENV APP="/docker_example_for_rails" \
     CONTAINER_ROOT="./" \
     NOKOGIRI_OPTION="--use-system-libraries \
