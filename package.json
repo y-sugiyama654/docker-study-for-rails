@@ -3,7 +3,7 @@
   "private": true,
   "dependencies": {
     "@rails/webpacker": "3.5",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "vue": "^2.5.16"
   },
   "devDependencies": {
